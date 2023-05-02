@@ -138,7 +138,7 @@ img {
 /************************************************
     MOBILE
  ************************************************/
-@media screen and (min-width: 480px) and (max-width: 767px){
+@media screen and (max-width: 480px){
     .container{
         width: 100%;
     }
@@ -148,6 +148,7 @@ img {
     } 
     .steps .col, .lessons .col, .why-us .col-right, .why-us .col-left{
         width: 100%;
+        margin-bottom: 6rem;
     }
     p{
         font-size: 20px;
